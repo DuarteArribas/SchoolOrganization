@@ -20,6 +20,8 @@ then
     mkdir $1/Material
     mkdir $1/Material/Bibliografia
     mkdir $1/Material/Notas
+    mkdir $1/Material/Outros
+    mkdir $1/Testes
     shift
   done
 else
@@ -33,6 +35,8 @@ else
     mkdir $1/Material
     mkdir $1/Material/Bibliography
     mkdir $1/Material/Notes
+    mkdir $1/Material/Other
+    mkdir $1/Tests
     shift
   done
-fi
+fiD

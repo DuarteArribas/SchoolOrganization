@@ -12,29 +12,29 @@ then
   shift
   for i in $(seq 1 $#);do
     mkdir $1
-    mkdir $1/teóricas
+    mkdir $1/Teóricas
     for j in $(seq 1 7);do
-      mkdir $1/teóricas/$j
+      mkdir $1/Teóricas/$j
     done
-    mkdir $1/práticas
+    mkdir $1/Práticas
     for j in $(seq 1 7);do
-      mkdir $1/práticas/$j
+      mkdir $1/Práticas/$j
     done
-    mkdir $1/trabalhoPrático
+    mkdir $1/TrabalhoPrático
     shift
   done
 else
   for i in $(seq 1 $#);do
     mkdir $1
-    mkdir $1/theoretical
+    mkdir $1/Theoretical
     for j in $(seq 1 7);do
-      mkdir $1/theoretical/$j
+      mkdir $1/Theoretical/$j
     done
-    mkdir $1/practical
+    mkdir $1/Practical
     for j in $(seq 1 7);do
-      mkdir $1/practical/$j
+      mkdir $1/Practical/$j
     done
-    mkdir $1/practicalWork
+    mkdir $1/PracticalWork
     shift
   done
 fi

@@ -18,7 +18,6 @@ then
     done
     mkdir $1/TrabalhoPrático
     mkdir $1/Material
-    mkdir $1/Material/Bibliografia
     mkdir $1/Material/Notas
     mkdir $1/Material/Outros
     mkdir $1/Testes
@@ -33,7 +32,6 @@ else
     done
     mkdir $1/PracticalWork
     mkdir $1/Material
-    mkdir $1/Material/Bibliography
     mkdir $1/Material/Notes
     mkdir $1/Material/Other
     mkdir $1/Tests

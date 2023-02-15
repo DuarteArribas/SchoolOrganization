@@ -37,4 +37,4 @@ else
     mkdir $1/Tests
     shift
   done
-fiD
+fi
